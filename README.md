@@ -147,3 +147,8 @@ $ git log --stat
 ```bash
 $ git log --graph
 ```
+
+20. Изменение сообщения в последнем коммите:
+```bash
+$ git commit --amend -m "Новое сообщение"
+```
