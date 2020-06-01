@@ -152,3 +152,17 @@ $ git log --graph
 ```bash
 $ git commit --amend -m "Новое сообщение"
 ```
+21. Синхронизация fork-a на github с основным репозиторием:
+```bash
+// Добавляем адрес для отслеживаемой веткой (upstream branch) основного репозитория
+$ git remote add upstream https://github.com/test/test-example.git
+
+// Просматриваем все удаленные ветки
+$ git remote -v
+
+// Получаем себе веточки
+$ git fetch upstream
+
+// Делаем merge нужной нам ветки с master основного репозитория
+$ git merge upstream/master
+```
