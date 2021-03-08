@@ -13,7 +13,14 @@ $ git config --global user.email gusev2014russia@mail.ru
 
 3. Установка дефолтного редактора:
 ```bash
+# sets atom as default code editor
 $ git config --global core.editor atom
+
+# sets visual studio code as default code editor
+$ git config --global core.editor "code --wait"
+
+# sets vim as default code editor
+$ git config --global core.editor "vim"
 ```
 
 4. Посмотреть текущий конфиг git'а:
