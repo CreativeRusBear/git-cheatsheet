@@ -178,3 +178,9 @@ $ git merge upstream/master
 ```bash
 $ git reset [file]
 ```
+
+# Возможные проблемы при работе с git и их решения
+
+1. Как выйти из `git diff`?
+
+**Ответ**: Нажать на клаишу `q`
