@@ -173,3 +173,8 @@ $ git fetch upstream
 // Делаем merge нужной нам ветки с master основного репозитория
 $ git merge upstream/master
 ```
+
+21. Удаление файла из stage
+```bash
+$ git reset [file]
+```
